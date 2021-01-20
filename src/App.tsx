@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button'
 import './App.css';
+import ButtonAppBar from './components/app_bar/ButtonAppBar';
 
 class App extends Component {
   render() {
     return (
-      <div>
-        This is an App
-      </div>
+      <ButtonAppBar></ButtonAppBar>
     );
   }
 }
